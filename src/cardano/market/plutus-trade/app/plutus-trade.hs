@@ -38,7 +38,7 @@ import qualified Data.ByteString.UTF8 as U
 import qualified Data.Text as T
 import qualified Data.Map as Map
 import qualified Data.Set as Set
-import           Cardano.PlutusExample.Trade (tradeSBS, tradeSerialised, TradeDatum(..), TradeDetails(..), TradeAction(..))
+import           Trade (tradeSBS, tradeSerialised, TradeDatum(..), TradeDetails(..), TradeAction(..))
 import Numeric (showHex)
 import GHC.Generics
 import qualified Data.ByteString.Base16 as B16

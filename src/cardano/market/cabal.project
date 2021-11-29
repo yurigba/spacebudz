@@ -28,9 +28,12 @@ source-repository-package
     plutus-ledger-api
     plutus-tx
     plutus-tx-plugin
+    plutus-chain-index
     prettyprinter-configurable
     quickcheck-dynamic
     word-array
+    playground-common
+    plutus-contract
   tag: 5e409452303b2bd9a5381b0f97f9a47edd69767d
 
 -- The following sections are copied from the 'plutus' repository cabal.project at the revision

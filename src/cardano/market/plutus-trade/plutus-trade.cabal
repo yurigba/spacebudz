@@ -43,7 +43,7 @@ library
 
   hs-source-dirs:       src
 
-  exposed-modules:      Cardano.PlutusExample.Trade
+  exposed-modules:      Trade
 
   build-depends:        bytestring
                       , cardano-api
@@ -55,6 +55,9 @@ library
                       , serialise
                       , aeson
                       , text
+                      , containers
+                      , plutus-contract
+                      , playground-common
 
   ghc-options: -fobject-code -fno-ignore-interface-pragmas -fno-omit-interface-pragmas
 
@@ -78,3 +81,5 @@ executable plutus-trade
                       , utf8-string
                       , base16-bytestring
                       , cardano-ledger-core
+                      , playground-common
+                      
